@@ -32,8 +32,6 @@
             this.groupBoxTTSV = new System.Windows.Forms.GroupBox();
             this.comboBoxCN = new System.Windows.Forms.ComboBox();
             this.textBoxDTB = new System.Windows.Forms.TextBox();
-            this.checkBoxNu = new System.Windows.Forms.CheckBox();
-            this.checkBoxNam = new System.Windows.Forms.CheckBox();
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.textBoxMSSV = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -54,6 +52,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.buttonThemSua = new System.Windows.Forms.Button();
             this.buttonXoa = new System.Windows.Forms.Button();
+            this.checkBoxNam = new System.Windows.Forms.RadioButton();
+            this.checkBoxNu = new System.Windows.Forms.RadioButton();
             this.groupBoxTTSV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSV)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -71,10 +71,10 @@
             // 
             // groupBoxTTSV
             // 
-            this.groupBoxTTSV.Controls.Add(this.comboBoxCN);
-            this.groupBoxTTSV.Controls.Add(this.textBoxDTB);
             this.groupBoxTTSV.Controls.Add(this.checkBoxNu);
             this.groupBoxTTSV.Controls.Add(this.checkBoxNam);
+            this.groupBoxTTSV.Controls.Add(this.comboBoxCN);
+            this.groupBoxTTSV.Controls.Add(this.textBoxDTB);
             this.groupBoxTTSV.Controls.Add(this.textBoxName);
             this.groupBoxTTSV.Controls.Add(this.textBoxMSSV);
             this.groupBoxTTSV.Controls.Add(this.label6);
@@ -108,28 +108,6 @@
             this.textBoxDTB.Size = new System.Drawing.Size(68, 20);
             this.textBoxDTB.TabIndex = 9;
             this.textBoxDTB.TextChanged += new System.EventHandler(this.textBoxDTB_TextChanged);
-            // 
-            // checkBoxNu
-            // 
-            this.checkBoxNu.AutoSize = true;
-            this.checkBoxNu.Location = new System.Drawing.Point(160, 80);
-            this.checkBoxNu.Name = "checkBoxNu";
-            this.checkBoxNu.Size = new System.Drawing.Size(40, 17);
-            this.checkBoxNu.TabIndex = 8;
-            this.checkBoxNu.Text = "Nữ";
-            this.checkBoxNu.UseVisualStyleBackColor = true;
-            this.checkBoxNu.CheckedChanged += new System.EventHandler(this.checkBoxNu_CheckedChanged);
-            // 
-            // checkBoxNam
-            // 
-            this.checkBoxNam.AutoSize = true;
-            this.checkBoxNam.Location = new System.Drawing.Point(96, 80);
-            this.checkBoxNam.Name = "checkBoxNam";
-            this.checkBoxNam.Size = new System.Drawing.Size(48, 17);
-            this.checkBoxNam.TabIndex = 7;
-            this.checkBoxNam.Text = "Nam";
-            this.checkBoxNam.UseVisualStyleBackColor = true;
-            this.checkBoxNam.CheckedChanged += new System.EventHandler(this.checkBoxNam_CheckedChanged);
             // 
             // textBoxName
             // 
@@ -300,6 +278,28 @@
             this.buttonXoa.UseVisualStyleBackColor = true;
             this.buttonXoa.Click += new System.EventHandler(this.buttonXoa_Click);
             // 
+            // checkBoxNam
+            // 
+            this.checkBoxNam.AutoSize = true;
+            this.checkBoxNam.Location = new System.Drawing.Point(96, 80);
+            this.checkBoxNam.Name = "checkBoxNam";
+            this.checkBoxNam.Size = new System.Drawing.Size(47, 17);
+            this.checkBoxNam.TabIndex = 6;
+            this.checkBoxNam.TabStop = true;
+            this.checkBoxNam.Text = "Nam";
+            this.checkBoxNam.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxNu
+            // 
+            this.checkBoxNu.AutoSize = true;
+            this.checkBoxNu.Location = new System.Drawing.Point(161, 80);
+            this.checkBoxNu.Name = "checkBoxNu";
+            this.checkBoxNu.Size = new System.Drawing.Size(39, 17);
+            this.checkBoxNu.TabIndex = 11;
+            this.checkBoxNu.TabStop = true;
+            this.checkBoxNu.Text = "Nữ";
+            this.checkBoxNu.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -338,8 +338,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.ComboBox comboBoxCN;
         private System.Windows.Forms.TextBox textBoxDTB;
-        private System.Windows.Forms.CheckBox checkBoxNu;
-        private System.Windows.Forms.CheckBox checkBoxNam;
         private System.Windows.Forms.TextBox textBoxName;
         private System.Windows.Forms.TextBox textBoxSSNu;
         private System.Windows.Forms.Label label8;
@@ -352,6 +350,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Khoa;
         private System.Windows.Forms.Button buttonThemSua;
         private System.Windows.Forms.Button buttonXoa;
+        private System.Windows.Forms.RadioButton checkBoxNu;
+        private System.Windows.Forms.RadioButton checkBoxNam;
     }
 }
 
