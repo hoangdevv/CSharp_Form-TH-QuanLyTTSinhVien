@@ -8,3 +8,13 @@ C:\Users\nvhho\source\repos\Lab02\Lab02-02\obj\Debug\Lab02-02.csproj.GenerateRes
 C:\Users\nvhho\source\repos\Lab02\Lab02-02\obj\Debug\Lab02-02.csproj.CoreCompileInputs.cache
 C:\Users\nvhho\source\repos\Lab02\Lab02-02\obj\Debug\Lab02-02.exe
 C:\Users\nvhho\source\repos\Lab02\Lab02-02\obj\Debug\Lab02-02.pdb
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\Lab02-02\bin\Debug\Lab02-02.exe.config
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\Lab02-02\bin\Debug\Lab02-02.exe
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\Lab02-02\bin\Debug\Lab02-02.pdb
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\Lab02-02\obj\Debug\Lab02-02.csproj.AssemblyReference.cache
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\Lab02-02\obj\Debug\Lab02_02.Form1.resources
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\Lab02-02\obj\Debug\Lab02_02.Properties.Resources.resources
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\Lab02-02\obj\Debug\Lab02-02.csproj.GenerateResource.cache
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\Lab02-02\obj\Debug\Lab02-02.csproj.CoreCompileInputs.cache
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\Lab02-02\obj\Debug\Lab02-02.exe
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\Lab02-02\obj\Debug\Lab02-02.pdb

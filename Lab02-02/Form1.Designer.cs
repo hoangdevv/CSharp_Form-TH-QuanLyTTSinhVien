@@ -107,6 +107,7 @@
             this.textBoxDTB.Name = "textBoxDTB";
             this.textBoxDTB.Size = new System.Drawing.Size(68, 20);
             this.textBoxDTB.TabIndex = 9;
+            this.textBoxDTB.TextChanged += new System.EventHandler(this.textBoxDTB_TextChanged);
             // 
             // checkBoxNu
             // 
@@ -203,6 +204,7 @@
             this.dataGridViewSV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewSV.Size = new System.Drawing.Size(492, 204);
             this.dataGridViewSV.TabIndex = 2;
+            this.dataGridViewSV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewSV_CellClick);
             // 
             // MSSV
             // 
@@ -244,7 +246,7 @@
             // 
             // textBoxSSNu
             // 
-            this.textBoxSSNu.Location = new System.Drawing.Point(189, 21);
+            this.textBoxSSNu.Location = new System.Drawing.Point(179, 21);
             this.textBoxSSNu.Name = "textBoxSSNu";
             this.textBoxSSNu.Size = new System.Drawing.Size(47, 20);
             this.textBoxSSNu.TabIndex = 9;
@@ -252,7 +254,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(134, 24);
+            this.label8.Location = new System.Drawing.Point(152, 24);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(21, 13);
             this.label8.TabIndex = 8;
@@ -262,7 +264,7 @@
             // 
             this.textBoxSSNam.Location = new System.Drawing.Point(58, 21);
             this.textBoxSSNam.Name = "textBoxSSNam";
-            this.textBoxSSNam.Size = new System.Drawing.Size(53, 20);
+            this.textBoxSSNam.Size = new System.Drawing.Size(47, 20);
             this.textBoxSSNam.TabIndex = 7;
             // 
             // label7
