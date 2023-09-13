@@ -18,3 +18,13 @@ C:\Users\nvhho\source\repos\Lab02\LTMTWD_FORM_QLTTSinhVien\Lab02-03\obj\Debug\La
 C:\Users\nvhho\source\repos\Lab02\LTMTWD_FORM_QLTTSinhVien\Lab02-03\bin\Debug\Lab02-03.exe.config
 C:\Users\nvhho\source\repos\Lab02\LTMTWD_FORM_QLTTSinhVien\Lab02-03\bin\Debug\Lab02-03.exe
 C:\Users\nvhho\source\repos\Lab02\LTMTWD_FORM_QLTTSinhVien\Lab02-03\bin\Debug\Lab02-03.pdb
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-03\bin\Debug\Lab02-03.exe.config
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-03\bin\Debug\Lab02-03.exe
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-03\bin\Debug\Lab02-03.pdb
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-03\obj\Debug\Lab02-03.csproj.AssemblyReference.cache
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-03\obj\Debug\Lab02_03.Form1.resources
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-03\obj\Debug\Lab02_03.Properties.Resources.resources
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-03\obj\Debug\Lab02-03.csproj.GenerateResource.cache
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-03\obj\Debug\Lab02-03.csproj.CoreCompileInputs.cache
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-03\obj\Debug\Lab02-03.exe
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-03\obj\Debug\Lab02-03.pdb

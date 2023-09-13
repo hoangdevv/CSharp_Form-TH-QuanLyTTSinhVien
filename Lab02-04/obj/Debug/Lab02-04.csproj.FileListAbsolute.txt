@@ -1,0 +1,10 @@
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-04\bin\Debug\Lab02-04.exe.config
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-04\bin\Debug\Lab02-04.exe
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-04\bin\Debug\Lab02-04.pdb
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-04\obj\Debug\Lab02-04.csproj.AssemblyReference.cache
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-04\obj\Debug\Lab02_04.Form1.resources
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-04\obj\Debug\Lab02_04.Properties.Resources.resources
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-04\obj\Debug\Lab02-04.csproj.GenerateResource.cache
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-04\obj\Debug\Lab02-04.csproj.CoreCompileInputs.cache
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-04\obj\Debug\Lab02-04.exe
+C:\Users\hoang\source\repos\LTMTWD_FORM_QLTTSinhVien\LTMTWD_FORM_QLTTSinhVien\Lab02-04\obj\Debug\Lab02-04.pdb

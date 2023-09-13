@@ -30,6 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBoxTTSV = new System.Windows.Forms.GroupBox();
+            this.checkBoxNu = new System.Windows.Forms.RadioButton();
+            this.checkBoxNam = new System.Windows.Forms.RadioButton();
             this.comboBoxCN = new System.Windows.Forms.ComboBox();
             this.textBoxDTB = new System.Windows.Forms.TextBox();
             this.textBoxName = new System.Windows.Forms.TextBox();
@@ -52,8 +54,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.buttonThemSua = new System.Windows.Forms.Button();
             this.buttonXoa = new System.Windows.Forms.Button();
-            this.checkBoxNam = new System.Windows.Forms.RadioButton();
-            this.checkBoxNu = new System.Windows.Forms.RadioButton();
             this.groupBoxTTSV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSV)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -88,6 +88,28 @@
             this.groupBoxTTSV.TabIndex = 1;
             this.groupBoxTTSV.TabStop = false;
             this.groupBoxTTSV.Text = "Thông Tin Sinh Viên";
+            // 
+            // checkBoxNu
+            // 
+            this.checkBoxNu.AutoSize = true;
+            this.checkBoxNu.Location = new System.Drawing.Point(161, 80);
+            this.checkBoxNu.Name = "checkBoxNu";
+            this.checkBoxNu.Size = new System.Drawing.Size(39, 17);
+            this.checkBoxNu.TabIndex = 11;
+            this.checkBoxNu.TabStop = true;
+            this.checkBoxNu.Text = "Nữ";
+            this.checkBoxNu.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxNam
+            // 
+            this.checkBoxNam.AutoSize = true;
+            this.checkBoxNam.Location = new System.Drawing.Point(96, 80);
+            this.checkBoxNam.Name = "checkBoxNam";
+            this.checkBoxNam.Size = new System.Drawing.Size(47, 17);
+            this.checkBoxNam.TabIndex = 6;
+            this.checkBoxNam.TabStop = true;
+            this.checkBoxNam.Text = "Nam";
+            this.checkBoxNam.UseVisualStyleBackColor = true;
             // 
             // comboBoxCN
             // 
@@ -278,28 +300,6 @@
             this.buttonXoa.UseVisualStyleBackColor = true;
             this.buttonXoa.Click += new System.EventHandler(this.buttonXoa_Click);
             // 
-            // checkBoxNam
-            // 
-            this.checkBoxNam.AutoSize = true;
-            this.checkBoxNam.Location = new System.Drawing.Point(96, 80);
-            this.checkBoxNam.Name = "checkBoxNam";
-            this.checkBoxNam.Size = new System.Drawing.Size(47, 17);
-            this.checkBoxNam.TabIndex = 6;
-            this.checkBoxNam.TabStop = true;
-            this.checkBoxNam.Text = "Nam";
-            this.checkBoxNam.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxNu
-            // 
-            this.checkBoxNu.AutoSize = true;
-            this.checkBoxNu.Location = new System.Drawing.Point(161, 80);
-            this.checkBoxNu.Name = "checkBoxNu";
-            this.checkBoxNu.Size = new System.Drawing.Size(39, 17);
-            this.checkBoxNu.TabIndex = 11;
-            this.checkBoxNu.TabStop = true;
-            this.checkBoxNu.Text = "Nữ";
-            this.checkBoxNu.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -312,7 +312,7 @@
             this.Controls.Add(this.groupBoxTTSV);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Quản Lý Thông Tin Sinh Viên";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBoxTTSV.ResumeLayout(false);
             this.groupBoxTTSV.PerformLayout();

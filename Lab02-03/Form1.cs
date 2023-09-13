@@ -18,29 +18,7 @@ namespace Lab02_03
         {
             InitializeComponent();
         }
-        private Dictionary<string, int> giaGhe = new Dictionary<string, int>
-        {
-            { "Button1", 30000 },
-            { "Button2", 30000 },
-            { "Button3", 30000 },
-            { "Button4", 30000 },
-            { "Button5", 30000 },
-            { "Button6", 40000 },
-            { "Button7", 40000 },
-            { "Button8", 40000 },
-            { "Button9", 40000 },
-            { "Button210", 40000 },
-            { "Button11", 50000 },
-            { "Button12", 50000 },
-            { "Button13", 50000 },
-            { "Button14", 50000 },
-            { "Button15", 50000 },
-            { "Button16", 80000 },
-            { "Button17", 80000 },
-            { "Button18", 80000 },
-            { "Button19", 80000 },
-            { "Button20", 80000 }
-        };
+    
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -48,7 +26,8 @@ namespace Lab02_03
             {
                 if(ct is Button)
                 {
-                    Button bt = (Button)ct;
+                    Button bt = (Button)ct;//thực hiện ép kiểu 'ct' về kiểu 'Button'
+                                           //->để truy cập thuộc tính và phương thức của Button
                     bt.BackColor = Color.White;
                 }
             }
@@ -72,9 +51,6 @@ namespace Lab02_03
                 {
                     MessageBox.Show("Ghế đã có người!");
                 }
-
-            
-                //
             }
 
         }
@@ -82,16 +58,79 @@ namespace Lab02_03
 
         private void buttonChon_Click(object sender, EventArgs e)
         {
-            Button btn = sender as Button;
-            int tongTien = 0;
-            if (btn != null)
+            double sum = 0;
+            foreach(Control ct in groupBoxButton.Controls)
             {
-                if (btn.BackColor == System.Drawing.Color.Blue)
+                if( ct is Button)
                 {
-                    btn.BackColor = System.Drawing.Color.Yellow;
-                    
+                    Button bt = ( Button)ct;
+                    if( bt.BackColor == Color.Blue)
+                    {
+                        bt.BackColor = Color.Yellow;
+                        switch(bt.Name) 
+                        {
+                            case "button1":
+                            case "button2":
+                            case "button3":
+                            case "button4":
+                            case "button5":
+                                {
+                                    sum += 30000;
+                                    break;
+                                }
+                            case "button6":
+                            case "button7":
+                            case "button8":
+                            case "button9":
+                            case "button10":
+                                {
+                                    sum += 40000;
+                                    break;
+                                }
+                            case "button11":
+                            case "button12":
+                            case "button13":
+                            case "button14":
+                            case "button15":
+                                {
+                                    sum += 50000;
+                                    break;
+                                }
+                            case "button16":
+                            case "button17":
+                            case "button18":
+                            case "button19":
+                            case "button20":
+                                {
+                                    sum += 80000;
+                                    break;
+                                }
+                        }
+                    }
                 }
             }
+            textTongTien.Text = sum.ToString();
+        }
+
+        private void buttonHuy_Click(object sender, EventArgs e)
+        {
+            foreach(Control control in groupBoxButton.Controls)
+            {
+                if( control is Button)
+                {
+                    Button bt = (Button)control;
+                    if(bt.BackColor == Color.Blue)
+                    {
+                        bt.BackColor = Color.White;
+                    }
+                }
+            }
+            textTongTien.Text = 0.ToString();
+        }
+
+        private void buttonKThuc_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

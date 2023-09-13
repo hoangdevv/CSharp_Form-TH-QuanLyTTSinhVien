@@ -51,20 +51,22 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.tongTien = new System.Windows.Forms.TextBox();
+            this.textTongTien = new System.Windows.Forms.TextBox();
             this.buttonKThuc = new System.Windows.Forms.Button();
             this.buttonHuy = new System.Windows.Forms.Button();
             this.buttonChon = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.groupBoxButton.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.groupBoxButton);
-            this.panel1.Controls.Add(this.tongTien);
+            this.panel1.Controls.Add(this.textTongTien);
             this.panel1.Controls.Add(this.buttonKThuc);
             this.panel1.Controls.Add(this.buttonHuy);
             this.panel1.Controls.Add(this.buttonChon);
@@ -305,14 +307,14 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button20_Click);
             // 
-            // tongTien
+            // textTongTien
             // 
-            this.tongTien.BackColor = System.Drawing.SystemColors.Window;
-            this.tongTien.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tongTien.Location = new System.Drawing.Point(200, 353);
-            this.tongTien.Name = "tongTien";
-            this.tongTien.Size = new System.Drawing.Size(156, 20);
-            this.tongTien.TabIndex = 26;
+            this.textTongTien.BackColor = System.Drawing.SystemColors.Window;
+            this.textTongTien.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textTongTien.Location = new System.Drawing.Point(200, 353);
+            this.textTongTien.Name = "textTongTien";
+            this.textTongTien.Size = new System.Drawing.Size(125, 20);
+            this.textTongTien.TabIndex = 26;
             // 
             // buttonKThuc
             // 
@@ -324,6 +326,7 @@
             this.buttonKThuc.TabIndex = 25;
             this.buttonKThuc.Text = "Kết thúc";
             this.buttonKThuc.UseVisualStyleBackColor = false;
+            this.buttonKThuc.Click += new System.EventHandler(this.buttonKThuc_Click);
             // 
             // buttonHuy
             // 
@@ -335,6 +338,7 @@
             this.buttonHuy.TabIndex = 24;
             this.buttonHuy.Text = "Hủy bỏ";
             this.buttonHuy.UseVisualStyleBackColor = false;
+            this.buttonHuy.Click += new System.EventHandler(this.buttonHuy_Click);
             // 
             // buttonChon
             // 
@@ -369,6 +373,15 @@
             this.label1.TabIndex = 21;
             this.label1.Text = "MÀN ẢNH";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(326, 356);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(30, 13);
+            this.label3.TabIndex = 28;
+            this.label3.Text = "VNĐ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -377,7 +390,7 @@
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "Form1";
-            this.Text = " ";
+            this.Text = " BÁN VÉ RẠP CHIẾU PHIM";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -410,12 +423,13 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox tongTien;
+        private System.Windows.Forms.TextBox textTongTien;
         private System.Windows.Forms.Button buttonKThuc;
         private System.Windows.Forms.Button buttonHuy;
         private System.Windows.Forms.Button buttonChon;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
     }
 }
 
